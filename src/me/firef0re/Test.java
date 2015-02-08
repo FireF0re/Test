@@ -24,7 +24,7 @@ public class Test extends JavaPlugin implements Listener {
 		if (cmd.getName().equalsIgnoreCase("ton")) {
 			p.playSound(p.getLocation(), Sound.ANVIL_USE, 30, 30);
 			
-			return false;
+			return true;
 		}
 		return false;
 	}
