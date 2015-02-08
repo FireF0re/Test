@@ -2,3 +2,7 @@ name: Test
 version: 0.1
 author: FireF0re
 main: me.firef0re.Test
+commands:
+     ton:
+          description: Ton
+          usuage: </command>
