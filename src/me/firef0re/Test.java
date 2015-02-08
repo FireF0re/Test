@@ -18,7 +18,7 @@ public class Test extends JavaPlugin implements Listener {
 		System.out.println("[Test] Plugin deaktiviert!");
 	}
 
-	public boolean onCommand(CommandSender sender, Command cmd, String cmdlabel, String[] args) {
+	public boolean onCommand(CommandSender sender, Command cmd,String cmdlabel, String[] args) {
 		Player p = (Player) Bukkit.getOnlinePlayers();
 		
 		if (cmd.getName().equalsIgnoreCase("ton")) {
